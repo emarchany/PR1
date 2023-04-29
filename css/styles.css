@@ -1,0 +1,222 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Para que el scrolleo en la one page sea suave */
+    scroll-behavior: smooth;
+}
+
+/* Para quitar los puntos a los items de listas */
+ul {
+    list-style: none;
+}
+
+/* Para que los enlaces hereden el color de texto y no tengan subrayado */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
+*  el margin: auto; para tenerlo centrado fácilmente ;)
+*/
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.navenlace{  
+    display: inline-block;
+    background:  #d88ffa; color: black;
+    padding: 10px 20px;
+    text-decoration: none; text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 15px; transition-duration: 3s;
+}
+.navenlace:hover{ background: #aa5bcf;} 
+
+nav{background:#fcfcfcc9; 
+    padding: 10px; 
+    display: flex; 
+    justify-content:space-between; 
+    align-items: flex-end; 
+    transition-duration: 3s; 
+    shape-margin: 5%; 
+    box-sizing: border-box; 
+    overflow: hidden;
+    list-style-type:none;}
+     
+.log {width: 110px; height: 80px; float: left; display: block;}
+
+@media ( max-width: 600px ){ 
+    .navenlace{  
+        display: inline-block;
+        background:  #d88ffa; color: black;
+        padding: 10px 20px;
+        text-decoration: none; text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-radius: 15px; transition-duration: 3s;
+    }
+    .navenlace:hover{ background: #aa5bcf;} 
+    
+    nav{background:#fcfcfcc9; 
+        padding: 10px; 
+        display: flex; 
+        justify-content:space-between; 
+        align-items: flex-end; 
+        transition-duration: 3s; 
+        shape-margin: 5%; 
+        box-sizing: border-box; 
+        overflow: hidden;
+        list-style-type:none;}
+         
+    .log {width: 110px; height: 80px; float: left; display: block;}
+   
+}
+
+body{ 
+    background: #fdfdfdfb;    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+      .box { width: 500px; background-color:#af48df5d; 
+         margin: 0 auto; margin-top: 4%; padding: 20px; 
+        color: black; text-align: center; border-radius: 15px;}
+      .box h1{ font-size: 40px; color: black; font-family: 'Kaushan Script', cursive; letter-spacing: 2px; margin: 30px 0 20px;}
+      .avatar { height: 150px; width: 160px; border-radius: 50%;
+}
+    .box p{ text-align: justify;
+     }
+
+    .boxcontacto{ 
+        width: 500px; background-color:#af48df5d; 
+        margin: 0 auto; margin-top: 4%; padding: 20px; 
+        color: black; text-align: center; border-radius: 15px;}
+    .boxcontacto h1{ font-size: 40px; color: black; font-family: 'Kaushan Script', cursive; letter-spacing: 2px; margin: 30px 0 20px;}
+    
+    .boxcontacto ul{
+        list-style: none;
+        margin-top: 20px; }
+    
+        .boxcontacto ul li{
+        display: inline; transition: all .5s;}
+    
+        .boxcontacto ul li a{
+        color: rgba(230, 176, 255, 0.486);
+        font-size: 45px;
+        padding: 10px 5px; }
+    .mail{ 
+        width: 100px; height: 90px; border-radius: 15px; display: flex-end; justify-content: space-between;   }
+    .Github{
+        width: 100px; height: 90px; border-radius: 15px; display: flex-end; justify-content: space-between; 
+    }
+    .linkdn{
+        width: 100px; height: 90px; border-radius: 15px; display: flex-end; justify-content: space-between; 
+    }
+
+    .butt{
+        
+        padding: 10px 20px;    
+        float: inline-start;
+        transition-duration: 3s; 
+        shape-margin: 5%;  
+        overflow: hidden;
+        display: flex; 
+        justify-content: center ;
+
+    }
+
+    .descarga {
+        background-color: #aa5bcf ;
+        padding: 10px 20px;
+        text-align: center; text-decoration: none ; 
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+        font-size: 16px; 
+        transition-duration: 3s; border-radius: 15px;
+    }
+    .descarga:hover { background: #8d3bb3; }
+    
+header{ 
+    background: #dda0f0c2;
+    width: 100%;
+    position: fixed;
+    z-index: 100;}
+    
+
+footer{
+  background: #b45ccfc2; font-size: 12px; 
+  text-align: center; 
+  font-family:'Times New Roman', Times, serif ;
+  padding: 20px; margin: auto; display: block;
+ }
+    @media ( max-width: 600px) { 
+        body{ 
+            background: #fdfdfdfb;    background-size: cover;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+              .box { width: 500px; background-color:#af48df5d; 
+                 margin: 0 auto; margin-top: 4%; padding: 20px; 
+                color: black; text-align: center; border-radius: 15px;}
+              .box h1{ font-size: 40px; color: black; font-family: 'Kaushan Script', cursive; letter-spacing: 2px; margin: 30px 0 20px;}
+              .avatar { height: 150px; width: 160px; border-radius: 50%;
+    
+              .box p{ text-align: justify; }
+        
+              .boxcontacto{ 
+                width: 500px; background-color:#af48df5d; 
+                margin: 0 auto; margin-top: 4%; padding: 20px; 
+                color: black; text-align: center; border-radius: 15px;}
+              .boxcontacto h1{ font-size: 40px; color: black; font-family: 'Kaushan Script', cursive; letter-spacing: 2px; margin: 30px 0 20px;}
+            
+              .boxcontacto ul{
+                list-style: none;
+                margin-top: 20px; }
+            
+                .boxcontacto ul li{
+                display: inline; transition: all .5s;}
+            
+                .boxcontacto ul li a{
+                color: rgba(230, 176, 255, 0.486);
+                font-size: 45px;
+                padding: 10px 5px; }
+            
+                .mail{ 
+                width: 100px; height: 90px; border-radius: 15px; display: flex-end; justify-content: space-between; }
+                .Github{
+                width: 100px; height: 90px; border-radius: 15px; display: flex-end; justify-content: space-between; 
+            }
+            .linkdn{
+                width: 100px; height: 90px; border-radius: 15px; display: flex-end; justify-content: space-between; 
+            }
+        
+            .butt{
+                
+                padding: 10px 20px;    
+                float: inline-start;
+                transition-duration: 3s; 
+                shape-margin: 5%;  
+                overflow: hidden;
+                display: flex; 
+                justify-content: center ;
+        
+            }
+        
+            .descarga {
+                background-color: #aa5bcf ;
+                padding: 10px 20px;
+                text-align: center; text-decoration: none ; 
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+                font-size: 16px; 
+                transition-duration: 3s; border-radius: 15px; }
+        
+        header{ 
+                    background: #dda0f0c2;
+                    width: 100%;
+                    position: fixed;
+                    z-index: 100;}
+                    
+                
+        footer{
+                  background: #b45ccfc2; font-size: 12px; 
+                  text-align: center; 
+                  font-family:'Times New Roman', Times, serif ;
+                  padding: 20px; margin: auto; display: block ;}
+        
